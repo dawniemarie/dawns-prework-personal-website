@@ -25,6 +25,12 @@ body {
     text-align:center;
 
 }
+p {
+    font-family:roboto;
+    font-size:22px;
+    margin: auto;
+
+}
 #p1 {
     color:#fff;
     padding:0;
@@ -34,9 +40,15 @@ body {
     font-size:28px;
 }
 h1 {
-    color:rgb(218, 218, 218);
+    color:#2f2f2f;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size:18px;
+    font-size:70px;
+    padding: auto;
+    margin: auto;
+    text-align:center;
+    max-width:1000px;
+    top:120px;
+    margin-top:50px;
 }
 ul {
     background-color: #A2E4B8;
@@ -90,9 +102,44 @@ li a:hover {
     font-weight:bold;
 }
 
+#dawn-logo-footer {
+    color: #fff;
+    font-family: palace;
+    font-size:65px;
+    text-align:center;
+    margin:auto;
+}
+
+#title-footer {
+    color: #ffffff;
+    font-family:roboto;
+    font-size:18px;
+    letter-spacing:0.20em;
+    margin:auto;
+    top:1675px;
+    text-align:center;
+    text-transform:uppercase;
+    font-weight:bold;
+}
+
 @font-face {
     font-family: palace;
     src: url(PALACE.TTF);
     font-weight: bold;
   }
-  
+.content {
+    text-align: center;
+    padding-top:20px;
+    width:559px;
+    margin:auto;
+}
+#dawnimg {
+    border: 5px solid #76a987;
+    margin-bottom:20px;
+}
+#footer {
+    background-color: #2f2f2f;
+    top:500px;
+    padding-top:60px;
+    padding-bottom:150px;
+}
