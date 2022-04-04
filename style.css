@@ -25,6 +25,14 @@ body {
     text-align:center;
 
 }
+p a {
+    color: #76a987;
+    text-decoration:none;
+    transition: all 1s ease;
+}
+p a:hover {
+    color:grey;
+}
 p {
     font-family:roboto;
     font-size:22px;
@@ -45,10 +53,8 @@ h1 {
     font-size:70px;
     padding: auto;
     margin: auto;
-    text-align:center;
     max-width:1000px;
     top:120px;
-    margin-top:50px;
 }
 ul {
     background-color: #A2E4B8;
@@ -70,6 +76,7 @@ li a {
     padding:16px;
     text-transform:uppercase;
     text-decoration:none;
+    transition: all 1s ease;
 }
 li a:hover {
     background-color: #76a987;
@@ -134,31 +141,41 @@ li a:hover {
     width:559px;
     margin:auto;
 }
+.about-content {
+    text-align: center;
+    padding-top:50px;
+    width:1500px;
+    margin:auto;
+}
 #dawnimg {
     border: 5px solid #76a987;
     margin-bottom:20px;
 }
-#footer {
-    background-color: #2f2f2f;
-    top:500px;
-    padding-bottom:20px;
-    border-top:8px solid #A2E4B8;
-}
-#social {
+#social-home {
     position: absolute;
     display: block;
     width:300px;
-    top:1500px;
+    top:1460px;
     left:50px;
     padding-top:10px;
     color:#fff;
     font-size:35px;
 }
-#social a:hover {
+#social-home a:hover {
     color:#A2E4B8;
 }
-#social a {
+#social-home a {
     color:#fff;
+    transition: all 1s ease;
+}
+
+/*Footer*/
+
+#footer {
+    background-color: #2f2f2f;
+    top:500px;
+    padding-bottom:50px;
+    border-top:8px solid #A2E4B8;
 }
 #footer-links {
     font-family:roboto;
@@ -169,4 +186,47 @@ li a:hover {
     text-align:center;
     padding-top:25px;
     padding-bottom:30px;
+}
+#footer-links a {
+    color:#fff;
+    text-decoration:none;
+    transition: all 1s ease;
+}
+#footer-links a:hover {
+    color:#A2E4B8;
+    text-decoration:none;
+}
+
+/*About Page*/
+.row {
+    display: flex;
+}
+.column {
+    flex: 50%;
+}
+h1.gradient span {
+    background: linear-gradient(0deg, rgba(32,201,151,0) 0%, rgba(32,201,151,0) 16%, rgba(32,201,151,1) 16%, rgba(32,201,151,1) 41%, rgba(255,0,255,0) 41%);
+    padding:0px;
+    margin:0px;
+}
+p.hobbies {
+margin-top:50px;
+font-size:17.5px;
+}
+#social-about {
+    position: absolute;
+    display: block;
+    width:300px;
+    top:1060px;
+    left:50px;
+    padding-top:10px;
+    color:#fff;
+    font-size:35px;
+}
+#social-about a:hover {
+    color:#A2E4B8;
+}
+#social-about a {
+    color:#fff;
+    transition: all 1s ease;
 }
