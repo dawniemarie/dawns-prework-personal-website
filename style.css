@@ -108,6 +108,7 @@ li a:hover {
     font-size:65px;
     text-align:center;
     margin:auto;
+    padding-top:12px;
 }
 
 #title-footer {
@@ -140,6 +141,32 @@ li a:hover {
 #footer {
     background-color: #2f2f2f;
     top:500px;
-    padding-top:60px;
-    padding-bottom:150px;
+    padding-bottom:20px;
+    border-top:8px solid #A2E4B8;
+}
+#social {
+    position: absolute;
+    display: block;
+    width:300px;
+    top:1500px;
+    left:50px;
+    padding-top:10px;
+    color:#fff;
+    font-size:35px;
+}
+#social a:hover {
+    color:#A2E4B8;
+}
+#social a {
+    color:#fff;
+}
+#footer-links {
+    font-family:roboto;
+    text-transform:uppercase;
+    color:#fff;
+    font-size:15.5px;
+    margin: auto;
+    text-align:center;
+    padding-top:25px;
+    padding-bottom:30px;
 }
