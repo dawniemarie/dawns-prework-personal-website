@@ -76,6 +76,20 @@ li a:hover {
     padding-top:8px;
 }
 
+#title {
+    color: #ffffff;
+    font-family:roboto;
+    font-size:12px;
+    display:block;
+    letter-spacing:0.20em;
+    left:0;
+    top:50px;
+    position:absolute;
+    padding-left:20px;
+    text-transform:uppercase;
+    font-weight:bold;
+}
+
 @font-face {
     font-family: palace;
     src: url(PALACE.TTF);
