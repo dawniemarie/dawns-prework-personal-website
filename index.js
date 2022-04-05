@@ -68,3 +68,23 @@ var TxtRotate = function(el, toRotate, period) {
     css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
     document.body.appendChild(css);
   };
+
+  // When the user clicks on div, open the popup
+  function myFunction(event) {
+    const currentlyVisible = document.querySelector('.popup .show');
+    if(currentlyVisible) {
+      currentlyVisible.classList.toggle('show');
+    }
+    var popup = event.currentTarget.querySelector('.popuptext');
+    popup.classList.toggle("show");
+  }
+
+// If an event gets to the body
+$("body").click(function(){
+    $(".popup").fadeOut().removeClass("active");
+  });
+  
+  // Prevent events from getting pass .popup
+  $(".popup").click(function(e){
+    e.stopPropagation();
+  });
