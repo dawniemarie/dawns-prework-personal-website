@@ -28,7 +28,7 @@ body {
 p a {
     color: #76a987;
     text-decoration:none;
-    transition: all 1s ease;
+    transition: all 0.5s ease;
 }
 p a:hover {
     color:grey;
@@ -83,6 +83,7 @@ li a:hover {
     padding-bottom:25px;
     padding-top:22px;
   }
+
 #dawn-logo {
     color: #fff;
     font-family: palace;
@@ -115,7 +116,7 @@ li a:hover {
     font-size:65px;
     text-align:center;
     margin:auto;
-    padding-top:12px;
+    padding-top:80px;
 }
 
 #title-footer {
@@ -174,7 +175,8 @@ li a:hover {
 #footer {
     background-color: #2f2f2f;
     top:500px;
-    padding-bottom:50px;
+    overflow:none;
+   padding-bottom:31px;
     border-top:8px solid #A2E4B8;
 }
 #footer-links {
@@ -275,3 +277,44 @@ font-size:17.5px;
     from {opacity: 0;}
     to {opacity:1 ;}
   }
+
+  /*Contact*/
+
+  #contact-info {
+      border: 2px solid #A2E4B8;
+
+      background-color:#A2E4B8;
+      padding:40px;
+      padding-left:100px;
+      margin-top:40px;
+      margin-bottom:500px;
+      box-shadow: 10px 10px 5px #aaaaaa;
+  }
+  #contact-info p {
+color:#2f2f2f;
+text-align:left;
+  }
+  #contact-info a {
+      color:#2f2f2f;
+  }
+  #contact-info a:hover {
+      background-color:#76a987;
+      color:#fff;
+  }
+  #social-contact {
+    position: absolute;
+    display: block;
+    width:300px;
+    top:1010px;
+    left:50px;
+    padding-top:10px;
+    color:#fff;
+    font-size:35px;
+}
+#social-contact a:hover {
+    color:#A2E4B8;
+}
+#social-contact a {
+    color:#fff;
+    transition: all 0.5s ease;
+}
